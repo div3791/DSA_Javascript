@@ -2,7 +2,7 @@ const Queue = require('../queue/queue');
 
 function maxSum(nums, k) {
 
-    let max = new Queue();
+    let max = []
     let i = 0;
     let j = 0;
     let result = [];
@@ -10,7 +10,7 @@ function maxSum(nums, k) {
     while (j < nums.length) {
 
         while (max.size > 0 && max.rear < nums[j]) {
-            max.enqueue()
+            max.shift()
         }
 
         if (j - i + 1 < k) {

@@ -88,6 +88,12 @@ Function.prototype.myBind = function (context = {}, ...args) {
     }
 }
 
-const fn = purchase.myBind(car1);
-fn('$', 2000)
+Array.prototype.last = function () {
+    if (this === null || this.length === 0) return -1
+    if (this.length === 1) return this[0];
+    return this[this.length - 1];
+}
+
+const fn = arr.last();
+console.log(fn)
 
