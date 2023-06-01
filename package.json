@@ -2,9 +2,9 @@
   "name": "dsa",
   "version": "1.0.0",
   "description": "",
-  "main": "fibonacci.js",
+  "main": "./graph/BFS.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest"  
   },
   "author": "",
   "license": "ISC",
