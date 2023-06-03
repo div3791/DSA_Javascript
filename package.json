@@ -2,9 +2,9 @@
   "name": "dsa",
   "version": "1.0.0",
   "description": "",
-  "main": "./graph/BFS.js",
+  "main": "./graph/DFS.js",
   "scripts": {
-    "test": "jest"  
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
