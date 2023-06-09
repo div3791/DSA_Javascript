@@ -2,7 +2,7 @@
   "name": "dsa",
   "version": "1.0.0",
   "description": "",
-  "main": "./graph/DFS.js",
+  "main": "./graph/num_of_distinct_icelands.js",
   "scripts": {
     "test": "jest"
   },

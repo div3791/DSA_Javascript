@@ -28,7 +28,7 @@ class Solution {
             if (!visited[item]) {
                 visited[item] = true;
                 for (let i = 1; i < adj[item].length; i++) {
-                    if (visited[adj[item][i]] && parent[item] !== adj[item][i]) {
+                    if (visited[adj[item][i]] === true && parent[item] !== adj[item][i]) {
                         return true;
                     }
                     else if (adj[item][i] < visited.length && !visited[adj[item][i]]) {

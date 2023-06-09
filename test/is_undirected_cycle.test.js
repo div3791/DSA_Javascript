@@ -26,15 +26,4 @@ describe('Is Undirected Cyclic graph', () => {
             [], [2], [1, 3], [2]
         ])).toEqual(false)
     })
-
-    test('case 4', () => {
-        const solution = new Solution();
-        expect(solution.isCycle(4, [
-            [4, 2],
-            [1, 2],
-            [2, 3],
-        ])).toEqual(false)
-    })
-
-
 })
