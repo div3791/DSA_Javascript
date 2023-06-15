@@ -2,7 +2,7 @@
   "name": "dsa",
   "version": "1.0.0",
   "description": "",
-  "main": "./graph/topoligical_sort.js",
+  "main": "./graph/dijkstras_alog.js ",
   "scripts": {
     "test": "jest"
   },
